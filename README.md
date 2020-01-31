@@ -10,7 +10,8 @@
 
 
 ### Introduction
-This program uses the autodiscover JSON API of Office 365 to enumerate valid email addresses from a text file as fats as possible with multi threading
+This program uses the autodiscover JSON API of Office 365 to enumerate valid email addresses from a text file as fast as possible with multi threading.
+Office 365 enumerator can see if an email address is valid in Office365. This does not perform any login attempts, is unthrottled, and is incredibly useful for social engineering assessments to find which emails exist and which don't.
 
 ![demo](https://i.imgur.com/sVjnHrC.png)
 
